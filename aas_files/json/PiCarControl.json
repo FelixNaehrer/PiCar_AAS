@@ -1,0 +1,276 @@
+{
+  "paging_metadata": {},
+  "result": [
+    {
+      "modelType": "Operation",
+      "semanticId": {
+        "keys": [
+          {
+            "type": "GlobalReference",
+            "value": "https://admin-shell.io/aas/API/InvokeOperationSync/1/0/RC02"
+          }
+        ],
+        "type": "ModelReference"
+      },
+      "inputVariables": [
+        {
+          "value": {
+            "modelType": "Property",
+            "valueType": "xs:string",
+            "idShort": "Start"
+          }
+        },
+        {
+          "value": {
+            "modelType": "Property",
+            "valueType": "xs:string",
+            "idShort": "End"
+          }
+        }
+      ],
+      "outputVariables": [
+        {
+          "value": {
+            "modelType": "Property",
+            "valueType": "xs:string",
+            "idShort": "Result"
+          }
+        }
+      ],
+      "qualifiers": [
+        {
+          "kind": "ConceptQualifier",
+          "type": "invocationDelegation",
+          "value": "http://host.docker.internal:1080/submodels/aHR0cHM6Ly9leGFtcGxlLm9yZy9zdW5mb3VuZGVyL3BpY2FyLWNvbnRyb2w/submodel-elements/Q2FsY3VsYXRlRGlzdGFuY2U=/invoke"
+        }
+      ],
+      "description": [
+        {
+          "language": "de",
+          "text": "Berechnet die Fahrzeit zwischen zwei Orten."
+        }
+      ],
+      "idShort": "CalculateTransportTime"
+    },
+    {
+      "modelType": "Operation",
+      "semanticId": {
+        "keys": [
+          {
+            "type": "GlobalReference",
+            "value": "https://admin-shell.io/aas/API/InvokeOperationSync/1/0/RC02"
+          }
+        ],
+        "type": "ModelReference"
+      },
+      "inputVariables": [
+        {
+          "value": {
+            "modelType": "Property",
+            "valueType": "xs:integer",
+            "idShort": "NoInputRequired"
+          }
+        }
+      ],
+      "outputVariables": [
+        {
+          "value": {
+            "modelType": "Property",
+            "valueType": "xs:string",
+            "idShort": "Result"
+          }
+        }
+      ],
+      "qualifiers": [
+        {
+          "kind": "ConceptQualifier",
+          "type": "invocationDelegation",
+          "value": "http://host.docker.internal:1080/submodels/aHR0cHM6Ly9leGFtcGxlLm9yZy9zdW5mb3VuZGVyL3BpY2FyLWNvbnRyb2w/submodel-elements/R2V0Q3VycmVudExvY2F0aW9u/invoke"
+        }
+      ],
+      "description": [
+        {
+          "language": "de",
+          "text": "Ruft die derzeitige Position des Fahrzeugs über die IP Addresse ab."
+        }
+      ],
+      "idShort": "GetCurrentLocation"
+    },
+    {
+      "modelType": "Operation",
+      "semanticId": {
+        "keys": [
+          {
+            "type": "GlobalReference",
+            "value": "https://admin-shell.io/aas/API/InvokeOperationSync/1/0/RC02"
+          }
+        ],
+        "type": "ModelReference"
+      },
+      "inputVariables": [
+        {
+          "value": {
+            "modelType": "Property",
+            "valueType": "xs:integer",
+            "idShort": "Duration"
+          }
+        }
+      ],
+      "outputVariables": [
+        {
+          "value": {
+            "modelType": "Property",
+            "valueType": "xs:string",
+            "idShort": "Result"
+          }
+        }
+      ],
+      "qualifiers": [
+        {
+          "kind": "ConceptQualifier",
+          "type": "invocationDelegation",
+          "value": "http://host.docker.internal:1080/submodels/aHR0cHM6Ly9leGFtcGxlLm9yZy9zdW5mb3VuZGVyL3BpY2FyLWNvbnRyb2w/submodel-elements/U2VsZlRlc3Q=/invoke"
+        }
+      ],
+      "description": [
+        {
+          "language": "de",
+          "text": "Simuliert einen Self Test des Fahrzeugs. Im Prototypen wird das Ultra-Sonic-Distance Test Programm verwendet."
+        }
+      ],
+      "idShort": "SelfTest"
+    },
+    {
+      "modelType": "Operation",
+      "semanticId": {
+        "keys": [
+          {
+            "type": "GlobalReference",
+            "value": "https://admin-shell.io/aas/API/InvokeOperationSync/1/0/RC02"
+          }
+        ],
+        "type": "ModelReference"
+      },
+      "inputVariables": [
+        {
+          "value": {
+            "modelType": "Property",
+            "valueType": "xs:integer",
+            "idShort": "Duration"
+          }
+        }
+      ],
+      "outputVariables": [
+        {
+          "value": {
+            "modelType": "Property",
+            "valueType": "xs:string",
+            "idShort": "Result"
+          }
+        }
+      ],
+      "qualifiers": [
+        {
+          "kind": "ConceptQualifier",
+          "type": "invocationDelegation",
+          "value": "http://host.docker.internal:1080/submodels/aHR0cHM6Ly9leGFtcGxlLm9yZy9zdW5mb3VuZGVyL3BpY2FyLWNvbnRyb2w/submodel-elements/TGluZUZvbGxvd2Vy/invoke"
+        }
+      ],
+      "description": [
+        {
+          "language": "de",
+          "text": "Simuliert den Start eines Transports. Im Prototypen wird zur Steuerung der Liniensenor verwendet."
+        }
+      ],
+      "idShort": "StartTransport1"
+    },
+    {
+      "modelType": "Operation",
+      "semanticId": {
+        "keys": [
+          {
+            "type": "GlobalReference",
+            "value": "https://admin-shell.io/aas/API/InvokeOperationSync/1/0/RC02"
+          }
+        ],
+        "type": "ModelReference"
+      },
+      "inputVariables": [
+        {
+          "value": {
+            "modelType": "Property",
+            "valueType": "xs:integer",
+            "idShort": "Duration"
+          }
+        }
+      ],
+      "outputVariables": [
+        {
+          "value": {
+            "modelType": "Property",
+            "valueType": "xs:string",
+            "idShort": "Result"
+          }
+        }
+      ],
+      "qualifiers": [
+        {
+          "kind": "ConceptQualifier",
+          "type": "invocationDelegation",
+          "value": "http://host.docker.internal:1080/submodels/aHR0cHM6Ly9leGFtcGxlLm9yZy9zdW5mb3VuZGVyL3BpY2FyLWNvbnRyb2w/submodel-elements/TGlnaHRGb2xsb3dlcg==/invoke"
+        }
+      ],
+      "description": [
+        {
+          "language": "de",
+          "text": "Simuliert den Start eines Transports. Im Prototypen wird zur Steuerung der Lichtsensor verwendet."
+        }
+      ],
+      "idShort": "StartTransport2"
+    },
+    {
+      "modelType": "Operation",
+      "semanticId": {
+        "keys": [
+          {
+            "type": "GlobalReference",
+            "value": "https://admin-shell.io/aas/API/InvokeOperationSync/1/0/RC02"
+          }
+        ],
+        "type": "ModelReference"
+      },
+      "inputVariables": [
+        {
+          "value": {
+            "modelType": "Property",
+            "valueType": "xs:integer",
+            "idShort": "Duration"
+          }
+        }
+      ],
+      "outputVariables": [
+        {
+          "value": {
+            "modelType": "Property",
+            "valueType": "xs:string",
+            "idShort": "Result"
+          }
+        }
+      ],
+      "qualifiers": [
+        {
+          "kind": "ConceptQualifier",
+          "type": "invocationDelegation",
+          "value": "http://host.docker.internal:1080/submodels/aHR0cHM6Ly9leGFtcGxlLm9yZy9zdW5mb3VuZGVyL3BpY2FyLWNvbnRyb2w/submodel-elements/VGVzdEZyb250V2hlZWxz/invoke"
+        }
+      ],
+      "description": [
+        {
+          "language": "de",
+          "text": "Testet die Lenkung der Vorderräder für die angegebene Zeit in Sekunden (Default 10s)."
+        }
+      ],
+      "idShort": "TestFrontWheels"
+    }
+  ]
+}

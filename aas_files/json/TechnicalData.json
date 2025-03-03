@@ -1,0 +1,1162 @@
+{
+  "paging_metadata": {},
+  "result": [
+    {
+      "modelType": "SubmodelElementCollection",
+      "semanticId": {
+        "keys": [
+          {
+            "type": "GlobalReference",
+            "value": "https://admin-shell.io/ZVEI/TechnicalData/FurtherInformation/1/1"
+          }
+        ],
+        "type": "ExternalReference"
+      },
+      "qualifiers": [
+        {
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "value": "https://admin-shell.io/SubmodelTemplates/Cardinality/1/0"
+              }
+            ],
+            "type": "ExternalReference"
+          },
+          "kind": "ConceptQualifier",
+          "type": "Cardinality",
+          "value": "ZeroToOne",
+          "valueType": "xs:string"
+        }
+      ],
+      "description": [
+        {
+          "language": "en",
+          "text": "Further information on the product, the validity of the information provided and this data record."
+        }
+      ],
+      "idShort": "FurtherInformation",
+      "value": [
+        {
+          "modelType": "Property",
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "value": "https://admin-shell.io/ZVEI/TechnicalData/ManufacturerOrderCode/1/1"
+              }
+            ],
+            "type": "ExternalReference"
+          },
+          "value": "2025-01-01",
+          "valueType": "xs:date",
+          "qualifiers": [
+            {
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "https://admin-shell.io/SubmodelTemplates/Cardinality/1/0"
+                  }
+                ],
+                "type": "ExternalReference"
+              },
+              "kind": "ConceptQualifier",
+              "type": "Cardinality",
+              "value": "One",
+              "valueType": "xs:string"
+            },
+            {
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "https://admin-shell.io/SubmodelTemplates/ExampleValue/1/0"
+                  }
+                ],
+                "type": "ExternalReference"
+              },
+              "kind": "ConceptQualifier",
+              "type": "ExampleValue",
+              "value": "5/28/2021",
+              "valueType": "xs:string"
+            }
+          ],
+          "category": "PARAMETER",
+          "description": [
+            {
+              "language": "en",
+              "text": "Denotes a date on which the data specified in the Submodel was valid from for the associated asset."
+            }
+          ],
+          "idShort": "ValidDate"
+        },
+        {
+          "modelType": "MultiLanguageProperty",
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "value": "https://admin-shell.io/ZVEI/TechnicalData/TextStatement/1/1"
+              }
+            ],
+            "type": "ExternalReference"
+          },
+          "value": [
+            {
+              "language": "de",
+              "text": "Prototyp: Nur für den Gebrauch in kontrollierten Umgebungen geeignet."
+            }
+          ],
+          "qualifiers": [
+            {
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "https://admin-shell.io/SubmodelTemplates/Cardinality/1/0"
+                  }
+                ],
+                "type": "ExternalReference"
+              },
+              "kind": "ConceptQualifier",
+              "type": "Cardinality",
+              "value": "ZeroToMany",
+              "valueType": "xs:string"
+            },
+            {
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "https://admin-shell.io/SubmodelTemplates/ExampleValue/1/0"
+                  }
+                ],
+                "type": "ExternalReference"
+              },
+              "kind": "ConceptQualifier",
+              "type": "ExampleValue",
+              "value": "Restricted use@en",
+              "valueType": "xs:string"
+            },
+            {
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "https://admin-shell.io/SubmodelTemplates/AllowedIdShort/1/0"
+                  }
+                ],
+                "type": "ExternalReference"
+              },
+              "kind": "ConceptQualifier",
+              "type": "AllowedIdShort",
+              "value": "TextStatement[\\d{2,3}]",
+              "valueType": "xs:string"
+            }
+          ],
+          "category": "PARAMETER",
+          "description": [
+            {
+              "language": "en",
+              "text": "Statement by the manufacturer in text form, e.g. scope of validity of the statements, scopes of application, conditions of operation."
+            }
+          ],
+          "idShort": "TextStatement"
+        }
+      ]
+    },
+    {
+      "modelType": "SubmodelElementCollection",
+      "semanticId": {
+        "keys": [
+          {
+            "type": "GlobalReference",
+            "value": "https://admin-shell.io/ZVEI/TechnicalData/GeneralInformation/1/1"
+          }
+        ],
+        "type": "ExternalReference"
+      },
+      "qualifiers": [
+        {
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "value": "https://admin-shell.io/SubmodelTemplates/Cardinality/1/0"
+              }
+            ],
+            "type": "ExternalReference"
+          },
+          "kind": "ConceptQualifier",
+          "type": "Cardinality",
+          "value": "One",
+          "valueType": "xs:string"
+        }
+      ],
+      "description": [
+        {
+          "language": "en",
+          "text": "General information, for example ordering and manufacturer information."
+        }
+      ],
+      "idShort": "GeneralInformation",
+      "value": [
+        {
+          "modelType": "Property",
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "value": "0173-1#02-AAO677#002"
+              }
+            ],
+            "type": "ExternalReference"
+          },
+          "value": "Sunfounder",
+          "valueType": "xs:string",
+          "qualifiers": [
+            {
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "https://admin-shell.io/SubmodelTemplates/Cardinality/1/0"
+                  }
+                ],
+                "type": "ExternalReference"
+              },
+              "kind": "ConceptQualifier",
+              "type": "Cardinality",
+              "value": "One",
+              "valueType": "xs:string"
+            },
+            {
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "https://admin-shell.io/SubmodelTemplates/ExampleValue/1/0"
+                  }
+                ],
+                "type": "ExternalReference"
+              },
+              "kind": "ConceptQualifier",
+              "type": "ExampleValue",
+              "value": "Example Company",
+              "valueType": "xs:string"
+            }
+          ],
+          "category": "PARAMETER",
+          "description": [
+            {
+              "language": "en",
+              "text": "Legally valid designation of the natural or judicial body which is directly responsible for the design, production, packaging and labeling of a product in respect to its being brought into the market."
+            }
+          ],
+          "idShort": "ManufacturerName"
+        },
+        {
+          "modelType": "Property",
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "value": "0173-1#02-AAO676#003"
+              }
+            ],
+            "type": "ExternalReference"
+          },
+          "value": "Sunfounder PiCar-S",
+          "valueType": "xs:string",
+          "qualifiers": [
+            {
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "https://admin-shell.io/SubmodelTemplates/Cardinality/1/0"
+                  }
+                ],
+                "type": "ExternalReference"
+              },
+              "kind": "ConceptQualifier",
+              "type": "Cardinality",
+              "value": "One",
+              "valueType": "xs:string"
+            },
+            {
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "https://admin-shell.io/SubmodelTemplates/ExampleValue/1/0"
+                  }
+                ],
+                "type": "ExternalReference"
+              },
+              "kind": "ConceptQualifier",
+              "type": "ExampleValue",
+              "value": "A123-456",
+              "valueType": "xs:string"
+            }
+          ],
+          "category": "PARAMETER",
+          "description": [
+            {
+              "language": "en",
+              "text": "unique product identifier of the manufacturer "
+            }
+          ],
+          "idShort": "ManufacturerArticleNumber"
+        },
+        {
+          "modelType": "Property",
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "value": "0173-1#02-AAO227#002"
+              }
+            ],
+            "type": "ExternalReference"
+          },
+          "value": "/",
+          "valueType": "xs:string",
+          "qualifiers": [
+            {
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "https://admin-shell.io/SubmodelTemplates/Cardinality/1/0"
+                  }
+                ],
+                "type": "ExternalReference"
+              },
+              "kind": "ConceptQualifier",
+              "type": "Cardinality",
+              "value": "One",
+              "valueType": "xs:string"
+            },
+            {
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "https://admin-shell.io/SubmodelTemplates/ExampleValue/1/0"
+                  }
+                ],
+                "type": "ExternalReference"
+              },
+              "kind": "ConceptQualifier",
+              "type": "ExampleValue",
+              "value": "EEA-EX-200-S/47-Q3",
+              "valueType": "xs:string"
+            }
+          ],
+          "category": "PARAMETER",
+          "description": [
+            {
+              "language": "en",
+              "text": "By manufactures issued unique combination of numbers and letters used to identify the device for ordering"
+            }
+          ],
+          "idShort": "ManufacturerOrderCode"
+        },
+        {
+          "modelType": "File",
+          "contentType": "image/png",
+          "value": "aHR0cHM6Ly9hZG1pbi1zaGVsbC5pby9aVkVJL1RlY2huaWNhbERhdGEvU3VibW9kZWwvMS8y-GeneralInformation.ManufacturerLogo-9b6f0e80eb7727a8f1cef85c09e72edde2b0966b.png",
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "value": "https://admin-shell.io/ZVEI/TechnicalData/ManufacturerLogo/1/1"
+              }
+            ],
+            "type": "ExternalReference"
+          },
+          "qualifiers": [
+            {
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "https://admin-shell.io/SubmodelTemplates/Cardinality/1/0"
+                  }
+                ],
+                "type": "ExternalReference"
+              },
+              "kind": "ConceptQualifier",
+              "type": "Cardinality",
+              "value": "ZeroToOne",
+              "valueType": "xs:string"
+            }
+          ],
+          "description": [
+            {
+              "language": "en",
+              "text": "Imagefile for logo of manufacturer provided in common format (.png, .jpg)."
+            }
+          ],
+          "idShort": "ManufacturerLogo"
+        },
+        {
+          "modelType": "File",
+          "contentType": "image/png",
+          "value": "aHR0cHM6Ly9hZG1pbi1zaGVsbC5pby9aVkVJL1RlY2huaWNhbERhdGEvU3VibW9kZWwvMS8y-GeneralInformation.ProductImage-Screenshot 2025-01-09 at 09.11.16.png",
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "value": "https://admin-shell.io/ZVEI/TechnicalData/ProductImage/1/1"
+              }
+            ],
+            "type": "ExternalReference"
+          },
+          "qualifiers": [
+            {
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "https://admin-shell.io/SubmodelTemplates/Cardinality/1/0"
+                  }
+                ],
+                "type": "ExternalReference"
+              },
+              "kind": "ConceptQualifier",
+              "type": "Cardinality",
+              "value": "ZeroToMany",
+              "valueType": "xs:string"
+            }
+          ],
+          "description": [
+            {
+              "language": "en",
+              "text": "Image file for associated product provided in common format (.png, .jpg)."
+            }
+          ],
+          "idShort": "ProductImage"
+        },
+        {
+          "modelType": "MultiLanguageProperty",
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "value": "0173-1#02-AAW338#001"
+              }
+            ],
+            "type": "ExternalReference"
+          },
+          "value": [
+            {
+              "language": "en",
+              "text": "The PiCar-S is a cool smart car that can work with Raspberry Pi 3 model B, 3 model B+, and 4 model B. Equipped with three sensor modules including ultrasonic obstacle avoidance, light follower, and line follower."
+            }
+          ],
+          "qualifiers": [
+            {
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "https://admin-shell.io/SubmodelTemplates/Cardinality/1/0"
+                  }
+                ],
+                "type": "ExternalReference"
+              },
+              "kind": "ConceptQualifier",
+              "type": "Cardinality",
+              "value": "One",
+              "valueType": "xs:string"
+            },
+            {
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "https://admin-shell.io/SubmodelTemplates/ExampleValue/1/0"
+                  }
+                ],
+                "type": "ExternalReference"
+              },
+              "kind": "ConceptQualifier",
+              "type": "ExampleValue",
+              "value": "Electrical energy accelerator@en",
+              "valueType": "xs:string"
+            }
+          ],
+          "category": "PARAMETER",
+          "description": [
+            {
+              "language": "en",
+              "text": "Product designation as given by the mnaufacturer. Short description of the product, product group or function (short text) in common language."
+            }
+          ],
+          "idShort": "ManufacturerProductDesignation"
+        }
+      ]
+    },
+    {
+      "modelType": "SubmodelElementCollection",
+      "semanticId": {
+        "keys": [
+          {
+            "type": "GlobalReference",
+            "value": "https://admin-shell.io/ZVEI/TechnicalData/ProductClassifications/1/1"
+          }
+        ],
+        "type": "ExternalReference"
+      },
+      "qualifiers": [
+        {
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "value": "https://admin-shell.io/SubmodelTemplates/Cardinality/1/0"
+              }
+            ],
+            "type": "ExternalReference"
+          },
+          "kind": "ConceptQualifier",
+          "type": "Cardinality",
+          "value": "ZeroToOne",
+          "valueType": "xs:string"
+        }
+      ],
+      "description": [
+        {
+          "language": "en",
+          "text": "Product classifications by association of product classes with common classification systems."
+        }
+      ],
+      "idShort": "ProductClassifications",
+      "value": [
+        {
+          "modelType": "SubmodelElementCollection",
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "value": "https://admin-shell.io/ZVEI/TechnicalData/ProductClassificationItem/1/1"
+              }
+            ],
+            "type": "ExternalReference"
+          },
+          "qualifiers": [
+            {
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "https://admin-shell.io/SubmodelTemplates/Cardinality/1/0"
+                  }
+                ],
+                "type": "ExternalReference"
+              },
+              "kind": "ConceptQualifier",
+              "type": "Cardinality",
+              "value": "ZeroToMany",
+              "valueType": "xs:string"
+            },
+            {
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "https://admin-shell.io/SubmodelTemplates/AllowedIdShort/1/0"
+                  }
+                ],
+                "type": "ExternalReference"
+              },
+              "kind": "ConceptQualifier",
+              "type": "AllowedIdShort",
+              "value": "ProductClassificationItem[\\d{2,3}]",
+              "valueType": "xs:string"
+            }
+          ],
+          "description": [
+            {
+              "language": "en",
+              "text": "Single product classification item by association with product class in a particular classification system or property dictionary."
+            }
+          ],
+          "idShort": "ProductClassificationItem",
+          "value": [
+            {
+              "modelType": "Property",
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "https://admin-shell.io/ZVEI/TechnicalData/ProductClassificationSystem/1/1"
+                  }
+                ],
+                "type": "ExternalReference"
+              },
+              "value": "ECLASS",
+              "valueType": "xs:string",
+              "qualifiers": [
+                {
+                  "semanticId": {
+                    "keys": [
+                      {
+                        "type": "GlobalReference",
+                        "value": "https://admin-shell.io/SubmodelTemplates/Cardinality/1/0"
+                      }
+                    ],
+                    "type": "ExternalReference"
+                  },
+                  "kind": "ConceptQualifier",
+                  "type": "Cardinality",
+                  "value": "One",
+                  "valueType": "xs:string"
+                },
+                {
+                  "semanticId": {
+                    "keys": [
+                      {
+                        "type": "GlobalReference",
+                        "value": "https://admin-shell.io/SubmodelTemplates/ExampleValue/1/0"
+                      }
+                    ],
+                    "type": "ExternalReference"
+                  },
+                  "kind": "ConceptQualifier",
+                  "type": "ExampleValue",
+                  "value": "ECLASS",
+                  "valueType": "xs:string"
+                }
+              ],
+              "category": "PARAMETER",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "Common name of the classification system."
+                }
+              ],
+              "idShort": "ProductClassificationSystem"
+            },
+            {
+              "modelType": "Property",
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "https://admin-shell.io/ZVEI/TechnicalData/ClassificationSystemVersion/1/1"
+                  }
+                ],
+                "type": "ExternalReference"
+              },
+              "value": "14.0 (Advanced)",
+              "valueType": "xs:string",
+              "qualifiers": [
+                {
+                  "semanticId": {
+                    "keys": [
+                      {
+                        "type": "GlobalReference",
+                        "value": "https://admin-shell.io/SubmodelTemplates/Cardinality/1/0"
+                      }
+                    ],
+                    "type": "ExternalReference"
+                  },
+                  "kind": "ConceptQualifier",
+                  "type": "Cardinality",
+                  "value": "ZeroToOne",
+                  "valueType": "xs:string"
+                },
+                {
+                  "semanticId": {
+                    "keys": [
+                      {
+                        "type": "GlobalReference",
+                        "value": "https://admin-shell.io/SubmodelTemplates/ExampleValue/1/0"
+                      }
+                    ],
+                    "type": "ExternalReference"
+                  },
+                  "kind": "ConceptQualifier",
+                  "type": "ExampleValue",
+                  "value": "9.0 (BASIC)",
+                  "valueType": "xs:string"
+                }
+              ],
+              "category": "PARAMETER",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "Common version identifier of the used classification system, in order to distinguish different version of the property dictionary."
+                }
+              ],
+              "idShort": "ClassificationSystemVersion"
+            },
+            {
+              "modelType": "Property",
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "https://admin-shell.io/ZVEI/TechnicalData/ProductClassId/1/1"
+                  }
+                ],
+                "type": "ExternalReference"
+              },
+              "value": "28-01-02-01",
+              "valueType": "xs:string",
+              "qualifiers": [
+                {
+                  "semanticId": {
+                    "keys": [
+                      {
+                        "type": "GlobalReference",
+                        "value": "https://admin-shell.io/SubmodelTemplates/Cardinality/1/0"
+                      }
+                    ],
+                    "type": "ExternalReference"
+                  },
+                  "kind": "ConceptQualifier",
+                  "type": "Cardinality",
+                  "value": "One",
+                  "valueType": "xs:string"
+                },
+                {
+                  "semanticId": {
+                    "keys": [
+                      {
+                        "type": "GlobalReference",
+                        "value": "https://admin-shell.io/SubmodelTemplates/ExampleValue/1/0"
+                      }
+                    ],
+                    "type": "ExternalReference"
+                  },
+                  "kind": "ConceptQualifier",
+                  "type": "ExampleValue",
+                  "value": "27-01-88-77 | 0112/2///61987#ABA827#003",
+                  "valueType": "xs:string"
+                }
+              ],
+              "category": "PARAMETER",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "Class of the associated product or industrial equipment in the classification system. According to the notation of the system."
+                }
+              ],
+              "idShort": "ProductClassId"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modelType": "SubmodelElementCollection",
+      "semanticId": {
+        "keys": [
+          {
+            "type": "GlobalReference",
+            "value": "https://admin-shell.io/ZVEI/TechnicalData/TechnicalProperties/1/1"
+          }
+        ],
+        "type": "ExternalReference"
+      },
+      "qualifiers": [
+        {
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "value": "https://admin-shell.io/SubmodelTemplates/Cardinality/1/0"
+              }
+            ],
+            "type": "ExternalReference"
+          },
+          "kind": "ConceptQualifier",
+          "type": "Cardinality",
+          "value": "One",
+          "valueType": "xs:string"
+        }
+      ],
+      "description": [
+        {
+          "language": "en",
+          "text": "Individual characteristics that describe the product and its technical properties."
+        }
+      ],
+      "idShort": "TechnicalProperties",
+      "value": [
+        {
+          "modelType": "Property",
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "value": "https://admin-shell.io/SemanticIdNotAvailable/1/1"
+              }
+            ],
+            "type": "ExternalReference"
+          },
+          "value": "3B+",
+          "valueType": "xs:string",
+          "qualifiers": [
+            {
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "https://admin-shell.io/SubmodelTemplates/Cardinality/1/0"
+                  }
+                ],
+                "type": "ExternalReference"
+              },
+              "kind": "ConceptQualifier",
+              "type": "Cardinality",
+              "value": "ZeroToMany",
+              "valueType": "xs:string"
+            },
+            {
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "https://admin-shell.io/SubmodelTemplates/ExampleValue/1/0"
+                  }
+                ],
+                "type": "ExternalReference"
+              },
+              "kind": "ConceptQualifier",
+              "type": "ExampleValue",
+              "value": "Length",
+              "valueType": "xs:string"
+            }
+          ],
+          "category": "PARAMETER",
+          "description": [
+            {
+              "language": "en",
+              "text": "Represents a SubmodelElement that is not described using a common classification system, a consortium specification, an open community standard, a published manufacturer specification or such."
+            }
+          ],
+          "idShort": "RaspberryPiVersion"
+        },
+        {
+          "modelType": "SubmodelElementCollection",
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "value": "https://admin-shell.io/ZVEI/TechnicalData/SubSection/1/1"
+              }
+            ],
+            "type": "ExternalReference"
+          },
+          "qualifiers": [
+            {
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "https://admin-shell.io/SubmodelTemplates/Cardinality/1/0"
+                  }
+                ],
+                "type": "ExternalReference"
+              },
+              "kind": "ConceptQualifier",
+              "type": "Cardinality",
+              "value": "ZeroToMany",
+              "valueType": "xs:string"
+            },
+            {
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "https://admin-shell.io/SubmodelTemplates/AllowedIdShort/1/0"
+                  }
+                ],
+                "type": "ExternalReference"
+              },
+              "kind": "ConceptQualifier",
+              "type": "AllowedIdShort",
+              "value": "SubSection[\\d{2,3}]",
+              "valueType": "xs:string"
+            }
+          ],
+          "description": [
+            {
+              "language": "en",
+              "text": "Subordinate subdivision possibility for properties."
+            }
+          ],
+          "idShort": "HardwareSpezifikationen",
+          "value": [
+            {
+              "modelType": "Property",
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "https://admin-shell.io/SemanticIdNotAvailable/1/1"
+                  }
+                ],
+                "type": "ExternalReference"
+              },
+              "value": "Quad-Core ARM Cortex-A53",
+              "valueType": "xs:string",
+              "category": "PARAMETER",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "The CPU used in the Raspberry Pi 3B+."
+                }
+              ],
+              "idShort": "CPU"
+            },
+            {
+              "modelType": "Property",
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "https://admin-shell.io/SemanticIdNotAvailable/1/1"
+                  }
+                ],
+                "type": "ExternalReference"
+              },
+              "value": "1 GB LPDDR2",
+              "valueType": "xs:string",
+              "category": "PARAMETER",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "The RAM specification of the Raspberry Pi 3B+."
+                }
+              ],
+              "idShort": "RAM"
+            },
+            {
+              "modelType": "Property",
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "https://admin-shell.io/SemanticIdNotAvailable/1/1"
+                  }
+                ],
+                "type": "ExternalReference"
+              },
+              "value": "MicroSD Slot (64 GB)",
+              "valueType": "xs:string",
+              "category": "PARAMETER",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "The storage specification for the Raspberry Pi 3B+."
+                }
+              ],
+              "idShort": "Storage"
+            },
+            {
+              "modelType": "Property",
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "https://admin-shell.io/SemanticIdNotAvailable/1/1"
+                  }
+                ],
+                "type": "ExternalReference"
+              },
+              "value": "5000mAh / External power supply",
+              "valueType": "xs:string",
+              "category": "PARAMETER",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "The power supply specification of the Raspberry Pi 3B+."
+                }
+              ],
+              "idShort": "BatteryCapacity"
+            },
+            {
+              "modelType": "Property",
+              "semanticId": {
+                "keys": [
+                  {
+                    "type": "GlobalReference",
+                    "value": "https://admin-shell.io/SemanticIdNotAvailable/1/1"
+                  }
+                ],
+                "type": "ExternalReference"
+              },
+              "value": "Ultrasonic Sensor, Light Follower Module, Line Follower Module",
+              "valueType": "xs:string",
+              "category": "PARAMETER",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "The sensor package included in the Raspberry Pi 3B+."
+                }
+              ],
+              "idShort": "SensorPackage"
+            }
+          ]
+        },
+        {
+          "modelType": "SubmodelElementCollection",
+          "idShort": "KommunikationUndNetzwerk",
+          "value": [
+            {
+              "modelType": "Property",
+              "value": "802.11ac",
+              "valueType": "xs:string",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "The WiFi standard supported by the Raspberry Pi 3B+."
+                }
+              ],
+              "idShort": "WiFi"
+            },
+            {
+              "modelType": "Property",
+              "value": "5.0",
+              "valueType": "xs:string",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "The Bluetooth version supported by the Raspberry Pi 3B+."
+                }
+              ],
+              "idShort": "Bluetooth"
+            },
+            {
+              "modelType": "Property",
+              "value": "1 Gbps",
+              "valueType": "xs:string",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "The Ethernet speed supported by the Raspberry Pi 3B+."
+                }
+              ],
+              "idShort": "Ethernet"
+            },
+            {
+              "modelType": "Property",
+              "value": "Yes",
+              "valueType": "xs:string",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "Indicates whether the Raspberry Pi 3B+ supports CAN-Bus."
+                }
+              ],
+              "idShort": "CANBus"
+            }
+          ]
+        },
+        {
+          "modelType": "SubmodelElementCollection",
+          "idShort": "BetriebssystemUndSoftware",
+          "value": [
+            {
+              "modelType": "Property",
+              "value": "Raspberry Pi OS Lite",
+              "valueType": "xs:string",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "The operating system running on the Raspberry Pi 3B+."
+                }
+              ],
+              "idShort": "OperatingSystem"
+            },
+            {
+              "modelType": "Property",
+              "value": "1.2.0",
+              "valueType": "xs:string",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "The firmware version of the Raspberry Pi 3B+."
+                }
+              ],
+              "idShort": "FirmwareVersion"
+            },
+            {
+              "modelType": "Property",
+              "value": "ROS (Robot Operating System)",
+              "valueType": "xs:string",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "The software stack used on the Raspberry Pi 3B+."
+                }
+              ],
+              "idShort": "SoftwareStack"
+            }
+          ]
+        },
+        {
+          "modelType": "SubmodelElementCollection",
+          "idShort": "USBPortKonfiguration",
+          "value": [
+            {
+              "modelType": "Property",
+              "value": "Bus 001 Device 004: ID 148f:5370 Ralink Technology, Corp. RT5370 Wireless Adapter",
+              "valueType": "xs:string",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "Details of the device connected to USB Port 1."
+                }
+              ],
+              "idShort": "USBPort1"
+            },
+            {
+              "modelType": "Property",
+              "value": "empty",
+              "valueType": "xs:string",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "Details of the device connected to USB Port 2."
+                }
+              ],
+              "idShort": "USBPort2"
+            },
+            {
+              "modelType": "Property",
+              "value": "empty",
+              "valueType": "xs:string",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "Details of the device connected to USB Port 3."
+                }
+              ],
+              "idShort": "USBPort3"
+            },
+            {
+              "modelType": "Property",
+              "value": "empty",
+              "valueType": "xs:string",
+              "description": [
+                {
+                  "language": "en",
+                  "text": "Details of the device connected to USB Port 4."
+                }
+              ],
+              "idShort": "USBPort4"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
